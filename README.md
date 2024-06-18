@@ -22,7 +22,7 @@ The server will exist as a file `.platform`
 ```bash
 make start
 ```
- - The file `platform/-config.json` is used for configuration
+ - The file `platform/platform-config.json` is used for configuration
 
 ## Stop server
 The server file will be deleted
