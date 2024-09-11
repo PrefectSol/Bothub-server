@@ -23,3 +23,11 @@ enable-net:
 
 disable-net:
 	@python platform/control/disable_net.py $(filter-out $@,$(MAKECMDGOALS))
+
+force-restart:
+	@make stop
+	@make rmdb
+	@make clear
+	@make build
+	@make enable_net
+	

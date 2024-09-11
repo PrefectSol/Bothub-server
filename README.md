@@ -58,3 +58,13 @@ make rmdb
 ```bash
 make clear
 ```
+
+## Force Restart the server
+Stop, CLEAR ALL DATA, build, start, enable-net
+```bash
+make force-restart
+```
+
+
+
+```

@@ -15,7 +15,17 @@ class StatusCode(Enum):
     InternalGameError = 9
     HostNotFound = 10
     AddBotError = 11
-    
+    SendDataError = 12
+    CommunicationError = 13
+    TimeOut = 14
+    GameStarted = 15
+    ConnectionClosed = 16
+    GameRunning = 17
+    UnknownHost = 18
+    Accepted = 19
+    Rejected = 20
+    GameFinished = 21
+
 
 class HttpCode(Enum):
     Continue = 100
